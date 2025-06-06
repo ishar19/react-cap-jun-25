@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+.loginContainer {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 50vw;
+  height: 100vh;
+  background: red;
+}
+
+.image p {
+  font-size: 3rem;
+  color: white;
+  position: fixed;
+  bottom: 10vh;
+  left: 3vw;
+}
+
+.image p::highlight {
+  color: black;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.formContainer form input {
+  background-color: #292929;
+  padding: 0.7rem 0.3rem;
+  width: 40%;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.formContainer form input::placeholder {
+  color: white;
+}
+/* .formContainer form input:focus {
+  border: white solid 0.2rem;
+} */
+
+.formContainer form div input {
+  width: 1.2rem;
+  margin-top: 0;
+  padding: 0;
+}
+
+.formContainer form div {
+  display: flex;
+  height: 1.2rem;
+  align-items: center;
+  width: 50%;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  width: 20vw;
+}
+
+form button {
+  width: 50%;
+  border-radius: 1rem;
+  background-color: #72db73;
+  color: white;
+  height: 2rem;
+  border: none;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+input[type="checkbox"] {
+  accent-color: #72db73;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Single Day", cursive;
+  color: #72db73;
+}
+/* go study about specificity */
