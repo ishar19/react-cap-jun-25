@@ -56,6 +56,8 @@ export default function Home() {
   }
   const navigate = useNavigate()
   const handleNaviagte = (path) => {
+    const selectedMovies = movie.map(m => getNameById(m))
+    localStorage.setItem("selectedMovies", JSON.stringify(selectedMovies))
     navigate(path)
   }
   return (
